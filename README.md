@@ -1,26 +1,21 @@
-﻿﻿# Magento - MercadoPago Module (v1.4.x to 1.9.x)
+﻿# Magento - MercadoPago Module (v1.4.x to 1.9.x)
 
 * [Features](#features)
 * [Requirements](#requirements)
 * [Available versions](#available_versions)
 * [Feedback](#feedback)
 
-<!--- Módulo para Magento que integra MercadoPago como un metodo de pago en tu e-commerce. 
-   Proporciona la funcionalidad para procesar pagos online utilizando la API de MercadoPago. --->
-
 This Magento's module integrates MercadoPago as payment method in your e-commerce in an easy, fast and secure way.
 Provides functionality for processing online payments using the MercadoPago API.
 
 <a name="features"></a>
 ## Features ##
-
 Checkout options right for your business: 
 We offer two checkout methods that make it easy to securely accept payments from anyone, anywhere.
 
-**Clasic Checkout**
+**Classic Checkout**
 
 Great for merchants who want to get going quickly and easily.
-
 * Easy website integration —no coding required-.
 * Limited control of buying experience —display Checkout window as redirect, modal or iframe-.
 * Store buyer’s card for fast checkout.
@@ -32,7 +27,6 @@ Great for merchants who want to get going quickly and easily.
 **Custom Checkout**
 
 Offer a checkout fully customized to your brand experience with our simple-to-use payments API.
-
 * Seamless integration— no coding required, unless you want to.
 * Full control of buying experience.
 * Store buyer’s card for fast checkout.
@@ -55,7 +49,7 @@ This feature allows easy integration with two of the most used One Step Checkout
 This feature allows to configure and integrate the method of sending MercadoEnvios as another shipping option for customers. 
 It includes the ability to print the shipping label directly from the Magento Admin Panel.
 
-*Available for Argentina, Brazil and Mexico only with Clasic Checkout*
+*Available for Argentina, Brazil and Mexico only with Classic Checkout*
 
 **Recurring Payments**<sup>*</sup>
 
@@ -82,7 +76,7 @@ Within Magento admin panel, you can select between success page from MercadoPago
 This feature allows to add an installment calculator within Magento pages.
 It can be enabled/disabled from the Magento admin panel.
 The calculator can be visualized within product, cart, or both pages.
-The customer can use the intallment calculator to see the financing options available and the final amount to be paid.
+The customer can use the installment calculator to see the financing options available and the final amount to be paid.
 
 *Available for Argentina, Brazil, Chile, Colombia, Mexico, Peru, Uruguay and Venezuela*
 
@@ -95,7 +89,7 @@ This functionality can also be enabled/disabled from Magento plugin configuratio
 **Debug Mode in custom checkout**<sup>*</sup>
 
 This feature enabled allows testing the plugin without a SSL certificate. 
-The custon chechuot does not appear as a payment method if you operate over HTTP and with the configuration disabled.
+The custom checkout does not appear as a payment method if you operate over HTTP and with the configuration disabled.
 It is not recommended enable this option in production environment.
 
 **Status Update Cron between Magento and MercadoPago**<sup>*</sup>
@@ -105,12 +99,7 @@ The updating of the order states is done automatically,
 this functionality aims to automate the cases in which this does not happen.
 On store administration you can define the execution period and limit the number of orders to be evaluate using a time window.
 
-<!--Esta función permite verificar y actualizar los estados de las ordenes de Magento, dependiendo de su estado en MercadoPago.-->
-<!--En el admin, puede definir el periodo de ejecucion y limitar las ordenens a evaluar mediante una ventana de tiempo.  -->
-
-
 <sup>*</sup>*Only for v1.6.x to 1.9.x*
-
 
 <a name="requirements"></a>
 ## Requirements: ##
@@ -139,7 +128,6 @@ On store administration you can define the execution period and limit the number
 <li>PHP 5.5.x</li>
 </ul>
     Required extensions:
-
     PDO_MySQL, simplexml, mcrypt, hash, GD, DOM, iconv, curl
 
 **SSL certificate**
@@ -171,12 +159,11 @@ During the sandbox mode tests, you can operate over HTTP, but for homologation y
   </tbody>
 </table>
 
-<sup>**</sup>*Click on the links above for instructions on installing and configuring the module.*
+<sup>**</sup> *Click on the links above for instructions on installing and configuring the module*
 
 <a name="Feedback"></a>
+
 ## Feedback ##
-
 We want to know your opinion, please answer the following form.
-
 * [Portuguese](http://goo.gl/forms/2n5jWHaQbfEtdy0E2)
 * [Spanish](http://goo.gl/forms/A9bm8WuqTIZ89MI22)
